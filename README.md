@@ -10,5 +10,12 @@ As I am new to ubuntu of linux system, some time making note will be easy to set
    2. Use sudo to install google chrome (needed password use easier one) ($ sudo apt install ./google-chrome-stable_current_amd64.deb)
    3. It's done.
 4. As a not expert web developer a good easy code editor will be good (vim is not my thing). VS code my choice of code editor.
+   1. There are multiple way of install vscode most easy one use snap tool or download .deb file install sudo apt ./Download/vscode-file.deb
+   2. These time I approach differently first set up a repository in apt and install with that one.
+   3. get wget key ($ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -)
+   4. enable vscode repository ($ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main")
+   5. update the apt using ($ sudo apt update)
+   6. after all setup install vscode using code key word ($ sudo apt install code)
 5. A good version control will be helpful of any software developer. Git is my choice and must popular.
-   1.  
+   1.  sudo apt install git
+   2.  to check git version ($ git --version)
