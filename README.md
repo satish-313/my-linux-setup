@@ -17,5 +17,14 @@ As I am new to ubuntu of linux system, some time making note will be easy to set
    5. update the apt using ($ sudo apt update)
    6. after all setup install vscode using code key word ($ sudo apt install code)
 5. A good version control will be helpful of any software developer. Git is my choice and must popular.
-   1.  sudo apt install git
-   2.  to check git version ($ git --version)
+   1. sudo apt install git
+   2. to check git version ($ git --version)
+6. Installing nodejs in system
+   1. we can use sudo apt install nodejs directly from ubuntu respository archive but it is out date some time some package need latest version of nodejs
+   2. for that I follow the github of nodejssource page
+   3. for that I used the curl (first install curl ($ sudo apt install curl))
+   4. for the version I need replace the setup_15.x (replace 15.x to my need 12.x)
+   ($ curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs)
+   5. to check the version node -v and npm -v
+
