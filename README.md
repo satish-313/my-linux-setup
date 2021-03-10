@@ -58,3 +58,10 @@ sudo apt-get install -y nodejs)
    ($ psql ) to exit 
    ($ \q ) another way for me better way
    ($ sudo -u postgres psql)
+   
+  10. Install python in ubuntu, on installing ubuntu it has ubuntu. But to use python we need type python3.
+      1. It don't have the pip package we have to install using apt ($ sudo apt install -y python3-pip)
+      2. for install any package use pip3 install<packagename>. we can create a venv file to use tradition way like python file.py or pip install <packagename>
+      3. for rubost env file download some apt package using ($ sudo apt install -y build-essential libssl-dev libffi-dev python3-dev)
+      4. Install venv(if not), ($ sudo apt install -y python3-venv). To create venv ($ python3 -m venv <env-name>). To activate the venv ($ source <env-name>/bin/activate)
+      5. In env we can use pip and python command.
