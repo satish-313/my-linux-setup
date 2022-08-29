@@ -74,3 +74,8 @@ sudo apt-get install -y nodejs)
    5. make use install docker repo instead of default ubuntu repo ($ apt-cache policy docker-ce)
    6. finally install docker (sudo apt install docker-ce)
    7. to check docker status ($ sudo systemctl status docker)
+   
+   
+  fedora linux
+  1. list the number of kernel in fedora $ rmm -qa kernel
+  2. the current kernel or working $ uname -r or uname -mrs
