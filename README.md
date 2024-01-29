@@ -77,5 +77,5 @@ sudo apt-get install -y nodejs)
    
    
   fedora linux
-  1. list the number of kernel in fedora $ rmm -qa kernel
+  1. list the number of kernel in fedora $ rpm -qa kernel
   2. the current kernel or working $ uname -r or uname -mrs
